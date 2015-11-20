@@ -3,6 +3,7 @@ package com.justin.simonelli.pairfinder;
 import java.util.Set;
 
 import com.justin.simonelli.pairfinder.model.Pair;
+import com.justin.simonelli.pairfinder.test.PairFinderTest;
 
 public class PairFinderMain {
 
@@ -15,5 +16,6 @@ public class PairFinderMain {
 			System.out.println("(" + p.getStartIndex() + ", " + p.getEndIndex() + ")" );
 		}
 
+		PairFinderTest.runTests();
 	}
 }
