@@ -49,7 +49,7 @@ public class PairFinder {
 		}
 		
 		//initialize our set
-		pairs = new HashSet<Pair>(inbound.length);
+		pairs = new HashSet<>(inbound.length);
 		
 		for( int i = 0; i < inbound.length; i++ ){
 			int current = inbound[i];
